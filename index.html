@@ -7,6 +7,8 @@
     width: 250px;
     height: 500px;
     visibility: visible;
+    position: fixed; /* Changed from default to fixed */
+    z-index: 1000; /* Added z-index to ensure it is on top */
 }
 .MenyDiv button{
     width: 100%;
@@ -49,3 +51,4 @@ function FastTrvl(){
     <button onclick="ClearDistrictRisk()">Ta bort risk nivån</button>
     <button onclick="FastTrvl()">Snabb Resa</button>
 </div>
+</html>
